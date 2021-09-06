@@ -153,6 +153,8 @@ public class Reception extends JFrame implements ActionListener{
 			
 		}else if(ae.getSource() == b3) {
 			
+			
+			
 		}else if(ae.getSource() == b4) {
 			
 			new EmployeeInfo().setVisible(true);
@@ -170,7 +172,13 @@ public class Reception extends JFrame implements ActionListener{
 			
 		}else if(ae.getSource() == b7) {
 			
+			new CheckOut().setVisible(true);
+			this.setVisible(false);
+			
 		}else if(ae.getSource() == b8) {
+			
+			new UpdateCheck().setVisible(true);
+			this.setVisible(false);
 			
 		}else if(ae.getSource() == b9) {
 			
@@ -179,7 +187,13 @@ public class Reception extends JFrame implements ActionListener{
 			
 		}else if(ae.getSource() == b10) {
 			
+			new PickUp().setVisible(true);
+			this.setVisible(false);
+			
 		}else if(ae.getSource() == b11) {
+			
+			new SearchRoom().setVisible(true);
+			this.setVisible(false);
 			
 		}else if(ae.getSource() == b12) {
 			this.setVisible(false);
